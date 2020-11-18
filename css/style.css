@@ -1,6 +1,6 @@
 .main{
-  margin-left: 6em;
-  margin-right: 6em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-top: 2em;
 }
 
@@ -19,10 +19,22 @@ h2 {
   font-size : 30px;
 }
 
+h3{
+  font-family: Helvetica;
+  font-size : 20px;
+  color : #383838;
+}
+
+h4{
+  font-family: Helvetica;
+  font-size : 18px;
+  color : #383838;
+}
+
 .header {
   padding-top: 6em;
   padding-bottom: 2em;
-  padding-left: 3em;
+  padding-left: 5em;
   margin : Oem;
   background-color: #B65050;
   color : white;
@@ -81,4 +93,44 @@ h2 {
     height : 5em;
     background-color: #00000;
     box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container2 {
+    display: flex;
+    flex-direction : row;
+    grid-template-columns: 1fr 1fr ;
+    flex-wrap : wrap;
+    justify-content: space-between;
+    column-gap: 0%;
+    row-gap: 2em;
+}
+
+.container2 div:nth-child(1) {
+    width: 30%;
+    height : 12em;
+    background-color: #B8336A;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5a5a5a;
+}
+
+.container2 div:nth-child(2) {
+    width: 70%;
+    height : 12em;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.container2 div:nth-child(3) {
+    width: 30%;
+    height : 12em;
+    background-color: #B8336A;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5a5a5a;
+}
+
+.container2 div:nth-child(4) {
+    width: 70%;
+    height : 12em;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
