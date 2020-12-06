@@ -1,56 +1,118 @@
 .main{
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: 2em;
+  margin-left: 12em;
+  margin-right: 12em;
 }
 
 p {
-  font-family : Helvetica;
+  font-family: "Avenir Next" !important;
   text-align: justify;
   font-size: 16px;
+  margin: 0px; 
+  padding: 0px;
 }
 
 h1 {
-  font-family: Helvetica;
-  font-size : 40px;
+  font-family: "Avenir Next" !important;
+  font-size: 35px;
+  font-weight: 400;
+  font-weight: 500;
+  color: #000000;
 }
 
 h2 {
-  font-family: Helvetica;
-  font-size : 25px;
+  font-family: "Avenir Next" !important;
+  font-size : 30px; 
+  font-weight: 400;
+  margin: 0px; 
+  padding: 0px;
+  font-weight: 500;
+  color: #000000;
+
 }
 
 h3{
-  font-family: Helvetica;
-  font-size : 20px;
-  color : #383838;
+  font-family: "Avenir Next" !important;
+  font-size : 23px;
+  color: #464646;
+  font-weight: 500;
+  margin: 0px; 
+  padding: 0px;
 }
 
 h4{
-  font-family: Helvetica;
-  font-size : 15px;
+  font-family: "Avenir Next" !important;
+  font-size : 18px;
   color : #383838;
+  font-weight: 600;
   margin : 0px;
   padding-top : 1em;
 }
 
-txt{
-  font-family : Helvetica;
+h5{
+  font-family: "Avenir Next" !important;
   text-align: justify;
-  font-size: 14px ; 
+  font-size: 15px ; 
+  font-weight: 400;
+  padding: 0px; 
+  margin: 0px;
+  color: #000000;
+}
+
+h6 {
+  font-family: "Avenir Next" !important;
+  text-align: justify;
+  font-size: 15px ; 
+  font-weight: 400;
+  color: #797979;
+  margin-top : 5px;
+  margin-bottom: 20px;
+}
+
+h7 {
+  font-family: "Avenir Next" !important;
+  font-size : 16px;
+  color: #797979;
+  font-weight: 600;
+  margin : 0px;
+  padding-top : 0px;
+  font-weight: 500;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header {
-  padding-top: 6em;
-  padding-bottom: 2em;
-  padding-left: 4em;
-  margin : Oem;
-  background-color: #B65050;
-  color : white;
-  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin : 0px;
+  color: #6e0c0c;
+  background-image: url("https://raw.githubusercontent.com/mathildehg/critiques_nadine/main/images/header.png")
+}
+
+.presentation{
+  padding-top: 40px; 
+}
+
+.headerrectangle {
+  border: solid 2px #6e0c0c;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(185, 166, 166, 0.64);
+  font-family: "Avenir Next" !important;
+  font-size: 40px;
+  text-align: center;
 }
 
 img{
+  width: 100%;
   max-width: 100%;
   max-height: 100%;
   display: block;
@@ -69,17 +131,47 @@ img{
   padding: 0px;
 }
 
+
 .container2 {
-  display : flex; 
-  flex-flow: row no-wrap;
-  justify-content: space-between;
-  column-gap: 2%;
-}
-  
-.colonneimg{
-  flex: 2;
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    column-gap: 2%;
+    margin-bottom: 30px;
+    }
+    
+.col1 {
+	flex: 1; 
+    }
+    
+.col2 {
+	flex: 1;
+    }
+
+.image2 {
+  padding-bottom: 1em; 
+  margin: 0px;
+  padding: 0px;
 }
 
-.description
-  flex: 1;
+.bandeauR{
+  display: flex;
+  background-color: #6e0c0c;
+  height : 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.decouvrir{
+  font-family: "Avenir Next" !important;
+  font-size: 30px;
+  font-weight: 400;
+  font-weight: 500;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
 }
