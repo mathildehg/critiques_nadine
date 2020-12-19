@@ -3,9 +3,13 @@
   margin-right: 12em;
 }
 
+.main2{
+  margin-left: 12em;
+  margin-right: 12em;
+}
+  
 p {
   font-family: "Avenir Next" !important;
-  text-align: justify;
   font-size: 16px;
   margin: 0px; 
   padding: 0px;
@@ -231,4 +235,137 @@ img{
   flex-flow: row no-wrap;
   justify-content: space-between;
   margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .main{
+  margin-left: 6em;
+  margin-right: 6em;
+}
+  
+  .main2{
+  margin-left: 6em;
+  margin-right: 6em;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+  
+  .main{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+  
+  .main2{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+  
+  
+h1 {
+  font-family: "Avenir Next" !important;
+  font-size: 30px;
+  font-weight: 400;
+  font-weight: 500;
+  color: #000000;
+}
+  
+   h2 {
+  font-family: "Avenir Next" !important;
+  font-size : 20px; 
+  font-weight: 400;
+  margin: 0px; 
+  padding: 0px;
+  font-weight: 500;
+  color: #000000;
+}
+  
+  
+h6 {
+  font-family: "Avenir Next" !important;
+  text-align: justify;
+  font-size: 15px ; 
+  font-weight: 400;
+  color: #797979;
+  margin-top : 8px;
+  margin-bottom: 0px;
+}
+  
+h3{
+  font-family: "Avenir Next" !important;
+  font-size : 18px;
+  color: #464646;
+  font-weight: 500;
+  margin: 0px; 
+  padding: 0px;
+}
+  
+ .presentation{
+  padding-top: 15px; 
+}
+  
+  .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  margin : 0px 0px 30px 0px;
+  color: #6e0c0c;
+  background-image: url("https://raw.githubusercontent.com/mathildehg/critiques_nadine/main/images/header.png")
+}
+
+  
+  .headerrectangle {
+  border: solid 2px #6e0c0c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin: 0px 30px 0px 30px;
+  background-color: rgba(185, 166, 166, 0.64);
+  font-family: "Avenir Next" !important;
+  font-size: 30px;
+  text-align: center;
+}
+  
+.container{
+  display : flex; 
+  flex-direction: column;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+  column-gap: 2%;
+}
+
+.image {
+  margin: 0px;
+  padding-top: 20px;
+}
+  
+.container2 {
+  display : flex; 
+  flex-direction: column;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+  column-gap: 2%;
+  column-gap: 2%;
+  margin-bottom: 30px;
+    }
+  
+  .auteur {
+  display : flex; 
+  flex-direction: column;
+  flex-flow: row no-wrap;
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  background-color: #dbdbdb;
+}
+  
+ .boutonsnav{
+  display : flex;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+}
+
 }
