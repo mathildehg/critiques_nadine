@@ -113,6 +113,7 @@ a {
 
 .headerrectangle {
   border: solid 2px #6e0c0c;
+  border-radius: 8px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 50px;
@@ -176,6 +177,9 @@ img{
 .decouvrir{
   font-family: "Avenir Next" !important;
   border: solid 2px #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
@@ -247,6 +251,8 @@ img{
   margin-left: 6em;
   margin-right: 6em;
 }
+  
+
 
 }
 
@@ -366,6 +372,14 @@ h3{
   display : flex;
   flex-flow: row no-wrap;
   justify-content: space-between;
+}
+  
+.bandeauR{
+  display: flex;
+  background-color: #6e0c0c;
+  height : 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 }
