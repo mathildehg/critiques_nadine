@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Toutes les critiques</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" /> 
+</head>
+
+  <div class="header">
+    <div class="headerrectangle"> Les critiques de Nadine </div>
+</div> 
+  <div class="main">
+      <div><a href="../index.html"><h8>  < Accueil</h8></a></div>
+
+    <h1> Découvrez toutes les critiques <h1>
+      <div class="container2"> 
+  <div class="col1">
+  <div class="image2"><a href="critiques/artdeperdre.html"><img src="https://raw.githubusercontent.com/mathildehg/critiques_nadine/main/images/artdeperdre.png"></a></div>  
+  </div>
+  <div class="col2">
+  <a href="critiques/artdeperdre.html"><h6> 15 novembre </h6>
+  <h2> L'art de perdre </h2> 
+    <h3> Alice Zenitzer </h3></a>
+  <p> Gisèle Halimi : Soixante-dix ans de combats, d’engagement au service de la justice et de la cause des femmes.
+    </p>
+    </div> 
+  </div>
+  
+ <div class="container2"> 
+  <div class="col1">
+  <div class="image2"><a href="critiques/artdeperdre.html"><img src="https://raw.githubusercontent.com/mathildehg/critiques_nadine/main/images/artdelajoie.png"></a></div>  
+  </div>
+  <div class="col2">
+  <h6> 15 novembre </h6>
+  <a href="critiques/artdeperdre.html"><h2>L'art de la joie</h2> 
+    <h3>Goliarda Sapienza</h3></a>
+  <p> Gisèle Halimi : Soixante-dix ans de combats, d’engagement au service de la justice et de la cause des femmes.</p>
+    </div> 
+  </div>
+ 
+  <div class="container2"> 
+  <div class="col1">
+  <div class="image2"><a href="critiques/artdeperdre.html"><img src="https://raw.githubusercontent.com/mathildehg/critiques_nadine/main/images/oeuvredieu.png"></a></div>  
+  </div>
+  <div class="col2">
+  <h6> 15 novembre </h6>
+  <a href="critiques/artdeperdre.html"><h2>L'oeuvre de dieu, la part du diable</h2> 
+    <h3>John Irving</h3></a>
+  <p> Gisèle Halimi : Soixante-dix ans de combats, d’engagement au service de la justice et de la cause des femmes.</p>
+    </div> 
+  </div>
+      <div><a href="../index.html"><h8>  < Accueil</h8></a></div>
+  </div>
+      
+       <div class="footer"> 
+  <div><h3> Les critiques de Nadine </h3></div>
+  <div><p><a href="">Toutes les critiques</p><a></div>
+  <div><a href=""><p>Contact<p><a></div>
+  <div><a href=""><p>Suggestions</p><a></div>
+</div> 
