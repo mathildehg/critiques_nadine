@@ -170,11 +170,14 @@ img{
 
 .bandeauR{
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #6e0c0c;
   height : 100px;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
+}
 }
 
 .decouvrir{
@@ -414,6 +417,8 @@ h3{
   
 .bandeauR{
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #6e0c0c;
   height : 100px;
   padding-top: 30px;
